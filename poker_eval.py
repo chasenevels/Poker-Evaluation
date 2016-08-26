@@ -78,9 +78,7 @@ def evaluate_hand(rank_list, hand):
     best_hand = 6 if full_house(rank_list) > best_hand else best_hand
     best_hand = 7 if four_of_a_kind(rank_list) > best_hand else best_hand
     best_hand = 8 if straight_flush(rank_list, hand) > best_hand else best_hand
-       
-for card in hand:
-    rank_list.append(card.rank)    
+           
             
 if __name__ == '__main__':
     deck = PokerDeck()
