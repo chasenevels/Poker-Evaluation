@@ -33,8 +33,8 @@ def get_suits(hand):
 def find_pairs(rank_list):
     pairs = []
     for rank in rank_list:
-        if rank_list.count(rank) == 2 and card not in pairs:
-            pairs.append(card)
+        if rank_list.count(rank) == 2 and rank not in pairs:
+            pairs.append(rank)
     return len(pairs)
 
 def three_of_a_kind(rank_list):
