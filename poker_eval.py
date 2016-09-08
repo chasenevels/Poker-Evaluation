@@ -44,7 +44,8 @@ def three_of_a_kind(rank_list):
     return 0
 
 def straight(rank_list):
-    if (rank_list[4]) - (rank_list[0]) == 4:
+    rank_list.sort()
+    if (int(rank_list[4])) - (int(rank_list[0])) == 4:
         return 4
     return 0
             
