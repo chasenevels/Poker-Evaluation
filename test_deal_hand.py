@@ -17,7 +17,7 @@ def test_three_of_a_kind():
 	ranks = ['4', '5', '5', '5', '6']
 	assert three_of_a_kind(ranks) == 3
 	if three_of_a_kind(ranks) == 3:
-		return 3
+	assert three_of_a_kind(ranks) == 3
 	
 def test_four_of_a_kind():
 	ranks = ['4', '4', '4', '4', '5']
