@@ -1,0 +1,9 @@
+{
+  "test_deal_hand.py::test_deal_hand": true,
+  "test_deal_hand.py::test_flush": true,
+  "test_deal_hand.py::test_four_of_a_kind": true,
+  "test_deal_hand.py::test_full_house": true,
+  "test_deal_hand.py::test_straight": true,
+  "test_deal_hand.py::test_straight_flush": true,
+  "test_deal_hand.py::test_three_of_a_kind": true
+}
